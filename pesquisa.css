@@ -1,0 +1,42 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #c5c5c5;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/* Estilos para o botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #347d38;
+}

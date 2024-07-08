@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="form.js"></script>
+    <link rel="shortcut icon" href="eaalicon.png"> 
+    <title>Cadastro</title>
+</head>
+
+
+<body>
+    
+    <h1>Pesquisa do IBGE</h1>
+
+
+    <div class="container">
+
+     <label for="date">Nome completo:</label>
+     <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+
+     <label for="date"> Data de nascimento:</label>
+     <input type="date" id="data" name="data" value="data"><br> 
+
+     <label for="date">Seu Email:</label>
+     <input type="email" id="email" name="email" placeholder="Digite seu email" ><br>
+
+     <label for="password">Senha:</label>
+     <input type="password" id="senha" name="password" placeholder="Digite sua senha" ><br>
+
+     <!-- checkbox -->
+     
+     <div class="itens">
+     <h3> Selecione qual desses itens você tem: </h3>
+     <!-- Carro -->
+     <input type="checkbox" id="Carro" name="Carro" value="Carro">
+     <label for="carro"> Carro </label>
+    
+     <!-- Casa -->
+     <input type="checkbox" id="Casa ou moradia" name="Casa ou moradia" value="Casa ou moradia">
+     <label for="Casa ou moradia"> Casa </label>
+     
+     <!-- Aparelhos -->
+     <input type="checkbox" id="1 ou mais aparelhos eletroeletrônicos" name="1 ou mais aparelhos eletroeletrônicos" value="Aparelhos">
+     <label for="Aparelhos"> 1 ou mais aparelhos eletroeletrônicos </label>
+
+     </div>
+     
+     <!-- Radio  -->
+      
+     <div class="comomora">
+     <h3> Como você mora: </h3>
+
+     <input type="radio" id="sozinho" name="comoMora" value="Sozinho">
+     <label for="Sozinho">Sozinho</label>
+
+     <input type="radio" id="PaisOuResponsáveis" name="comoMora" value="Pais ou responsáveis">
+     <label for="Pais ou responsáveis"> Pais ou responsáveis</label>
+
+     <input type="radio" id="FilhosOuCônjuge" name="comoMora" value="Filhos ou cônjuge">
+     <label for="Filhos ou cônjuge"> Filhos ou cônjuge </label>
+
+     <input type="radio" id="amigos" name="comoMora" value="amigos">
+     <label for="amigos">Amigos</label>
+
+    
+     </div>
+
+     <br>
+    </head>
+    <body>
+    
+    <!-- Botão HTML -->
+    <button type="button" onclick="Enviar()">ENVIAR</button>
+
+     
+ 
+    </div>
+
+
+</body>
+</html>
